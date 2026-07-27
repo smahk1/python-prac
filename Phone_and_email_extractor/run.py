@@ -1,4 +1,4 @@
-import time, extractor, sys
+import extractor, sys
 
 while True:
     response = input('Do you want to extract data? (y/n)')
