@@ -5,7 +5,6 @@
 
 import pyperclip as clip
 import re
-import sys
 import time
 
 def extractor():
