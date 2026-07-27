@@ -5,7 +5,6 @@
 
 import pyperclip as clip
 import re
-import time
 
 def extractor():
     # Copy to the clipboard
