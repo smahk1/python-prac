@@ -26,7 +26,7 @@ def strength_detector(input_string):
     # Extra: Checking special characters, string.punctuation contains: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
     special_char_pattern = re.compile(rf'[{re.escape(string.punctuation)}]')
     
-    # Finding the remaining lengths 
+    # Getting boolean vals 
     hasLower = bool(re.search(char_lower_pattern, input_string))
     hasUpper = bool(re.search(char_upper_pattern, input_string))
     hasDigit = bool(re.search(digit_pattern, input_string))
